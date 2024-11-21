@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+    margin: 0%;
+    padding: 0%; 
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+  }
+
+.image{
+position: relative;
+height: 200px;
+width: 200px;
+border-radius: 50%;
+background-color: rgb(42, 138, 182);
+padding: 3px;
+}
+.image .pro-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid rgb(255, 255, 255);
+
+}
+body{
+    background-color: #f4f4f4;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 370px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 5px 10px black ;
+    border-radius: 25px;
+    padding: 24px;
+    position: relative;
+}
+.profile::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 43%;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    background-color: rgb(84, 135, 212);
+}
+
+.text-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.link{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    font-size: 27px;
+    color: rgb(255, 255, 255);
+    background-color: blue;
+    margin-right: 10px;
+    text-decoration: none;
+    padding: 5px;
+    
+
+}
+.name{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: fantasy;
+}
+
+
+
+.msg{
+ 
+    border: none;
+    color: whitesmoke;
+    
+    font-size: 15px;
+    font-weight: 400;
+    margin: 15px 15px;
+    padding: 8px 14px;
+    border-radius: 24px;
+    border: 10px;
+    text-decoration: none;
+    background-color: rgb(206, 2, 2);
+    border: none;
+
+    cursor: pointer;
+   
+   
+}
+.msg:hover:hover{
+    background-color: rgb(255, 43, 43);
+
+}
+.buttons{
+     
+   
+
+
+    display: flex;
+    align-items:center
+}
+.msg1{
+ 
+    border: none;
+    color: rgb(255, 255, 255);
+    
+    font-size: 15px;
+    font-weight: 400;
+    margin: 15px 15px;
+    padding: 8px 14px;
+    border-radius: 24px;
+    border: 10px;
+    text-decoration: none;
+    background-color: rgb(22, 107, 187);
+    border: none;
+
+    
+    cursor: pointer;
+   
+   
+}
+.msg1:hover:hover{
+    background-color: rgb(1, 13, 51);
+
+}
